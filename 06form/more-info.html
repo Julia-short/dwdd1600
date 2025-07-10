@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julia Larson">
+    <meta name="description"
+        content="Learn about why aquarium size matters and who can fit in different aquarium sizes.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="basedesign.css">
+    <title>Perfect Tiny Homes</title>
+</head>
+
+<body>
+    <!-- start the page head-->
+    <header>
+        <span>
+            <img src="images/vector_betta.png" alt="Perfect Tiny Homes Logo" loading="lazy">
+            Perfect Tiny Homes
+        </span>
+
+    </header>
+
+    <!--Start the Page Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Why size matters</a></li>
+            <li><a href="nano.html">Nano Aquariums</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="more-info.html">Info Request</a></li>
+        </ul>
+
+    </nav>
+
+    <!--Start the main content-->
+    <main>
+
+        <h1>Want more information?</h1>
+        <p>Sign up to receive more information from our newsletter.</p>
+        <form method="get" class="info-request" action="thanks-request.html">
+
+            <fieldset>
+                <legend>Newsletter Signup</legend>
+                <label>First name*<input type="text" name="fname" required></label>
+                <label>Last name*<input type="text" name="lname" required></label>
+                <label>Email*<input type="text" name="Email-name" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What would you like to know more about?</legend>
+                <label><input type="checkbox" name="info" value="aquarium">Aquariums</label>
+                <label><input type="checkbox" name="info" value="fish">Fish</label>
+                <label><input type="checkbox" name="info" value="plants">Plants</label>
+                <label><input type="checkbox" name="info" value="shrimp">Shrimp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>How did you hear about us?</legend>
+                <label><input type="radio" name="source" value="friend">Friend</label>
+                <label><input type="radio" name="source" value="social-media">Social Media</label>
+                <label><input type="radio" name="source" value="search-engine">Search Engine</label>
+                <label><input type="radio" name="source" value="other">Other</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>If you could prefere to revice our Newsletter via MSM </legend>
+                    <label>Phone Number<input type="tel" name="Phone Number" required placeholder="880-867-5309"></label>
+                    <label><input type="checkbox" name="msm" value="yes">Yes, I would like to receive the newsletter via
+                        MSM</label>
+                    <label><input type="checkbox" name="msm" value="no">No, I do not want to receive the newsletter via
+                        MSM</label>
+                
+            </fieldset>
+
+            <label>Comments<textarea name="comments" rows="4" cols="50"
+                    placeholder="Please leave any comments or questions here."></textarea></label>
+
+                <input type="submit" value="Submit">
+
+
+        </form>
+
+    </main>
+
+    <!--Start the footer-->
+    <footer>
+        <p>&copy; 2025 &bull; Julia Larson &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
