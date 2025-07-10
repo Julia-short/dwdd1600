@@ -198,6 +198,25 @@ figure.side-left figcaption {
     margin-top: .5rem;
 }
 
+/**image gallery stuff here**/
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #170641;
+    text-align: center;
+    margin-top: .5rem;
+}
+
 /**user input from more-info**/
 .info-request label,
 .info-request [type=text],
