@@ -1,0 +1,482 @@
+/**Prevent Problems on Different Browers**/
+
+
+body {
+    font-family: "Hepta Slab", serif;
+    margin: 0;
+    background-color: #ffead1;
+    display: flex;
+
+}
+
+/**header stuff here**/
+header {
+    background-color: #ffead1;
+    text-align: center;
+    padding: 1rem 10px;
+
+}
+
+header span {
+    color: #2E007A;
+    font-size: 1.6rem;
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 15px 0 15px 0;
+
+}
+
+
+/*main Selectors*/
+main {
+    padding: 1rem 10px;
+    width: 100%;
+}
+
+main h1 {
+    color: #2E007A;
+    font-weight: 800;
+    font-size: 2.5rem;
+
+}
+
+main h2 {
+    margin-left: 1.5rem;
+    color: #802E01;
+    font-weight: 700;
+    font-size: 1.8rem;
+
+}
+
+main h3 {
+    margin-left: 1.8rem;
+    color: #802E01;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+main p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-right: 2rem;
+    margin-left: 4rem;
+    color: #170641;
+
+}
+
+main ol {
+    list-style-type: decimal;
+    margin-left: 4rem;
+    padding-left: 1.5rem;
+    color: #170641;
+
+}
+
+main dl dt {
+    margin-left: 6rem;
+    color: #170641;
+    font-weight: 700;
+    font-size: 1.1rem;
+
+}
+
+main dl dd {
+    margin-left: 7.5rem;
+    font-weight: 500;
+    color: #170641;
+    list-style-type: circle;
+}
+
+main ul {
+    list-style-type: circle;
+    margin-left: 3rem;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 400;
+    color: #811248
+}
+
+main address {
+    font-style: normal;
+    color: #E1F2E5;
+    background-color: #811248;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 4rem;
+
+}
+
+/*hyperlink selections*/
+.external-1 {
+    color: #4c1bc1;
+    text-decoration: none;
+}
+
+.external-2 {
+    color: #4c1bc1;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+main a {
+    color: #54d936;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: rgb(250, 250, 250)
+}
+
+/*Nano image stuff here */
+figure.side-left {
+    float: right;
+    margin: 0 0 0 10px;
+    width: 30%;
+}
+
+figure.side-left img {
+    width: 90%;
+    height: auto;
+}
+
+figure.side-left figcaption {
+    font-size: .5rem;
+    color: #024873;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+/** Hero image stuff here **/
+.hero {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    display: block;
+}
+
+/**image gallery stuff here**/
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #170641;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+/**back shadow for gallery**/
+.backsection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.backshadow section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+}
+
+.backshadow span {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    color: #2E007A;
+    border-radius: 10px;
+}
+
+.backshadow img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.backshadow img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.backshadow section
+
+/**user input from more-info**/
+.info-request label,
+.info-request [type=text],
+.info-request [type=tel],
+.info-request textarea {
+    display: block;
+    margin-bottom: 1rem;
+
+}
+
+/*fixing text input fields*/
+.info-request select,
+.info-request [type=text],
+.info-request [type=tel],
+.info-request textarea {
+    font-family: hepta-slab, serif;
+    font-weight: 200;
+
+}
+
+.info-request fieldset {
+    border: 2px solid #2E007A;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.info-request legend {
+    color: #2E007A;
+    font-weight: 700;
+}
+
+.info-request label {
+    color: #811248;
+    font-weight: 500;
+}
+
+.info-request textarea {
+    height: 6rem
+}
+
+.info-request :required,
+.info-request textarea {
+    background-color: #E1F2E5;
+
+}
+
+/* Style for custom checkboxes */
+input[type="checkbox"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2E007A;
+    background-color: #E1F2E5;
+    border-radius: 4px;
+    position: relative;
+}
+
+/* Style when checkbox before it is checked */
+input[type="checkbox"]::before {
+    background-color: #E1F2E5;
+    border-color: #2E007A;
+    position: relative;
+}
+
+/* Add checkmark when checked */
+input[type="checkbox"]:checked::after {
+    content: "✔";
+    font-weight: bold;
+    color: #115c00;
+    font-size: 11px;
+    position: relative;
+    top: -2px;
+    left: 2px;
+}
+
+/* Style for radio buttons */
+input[type="radio"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2E007A;
+    background-color: #E1F2E5;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* Style when radio button is checked */
+input[type="radio"]::before {
+    background-color: #E1F2E5;
+    border-color: #2E007A;
+    position: relative;
+}
+
+
+input[type="radio"]:checked::after {
+    content: "";
+    position: absolute;
+    top: 1.3px;
+    left: 1px;
+    width: 9px;
+    height: 9px;
+    background-color: #115c00;
+    border-radius: 50%;
+}
+
+/*Submit button edit*/
+.info-request input[type="submit"] {
+    background-color: #2E007A;
+    color: #eef25a;
+    font-weight: 700;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.info-request input[type="submit"]:hover {
+    color: #E1F2E5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/**footer stuff here**/
+footer {
+    background-color: #eff4f0;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 0px;
+    font-size: .7rem;
+    color: #170641;
+    position: relative;
+    bottom: 0;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/**sizing of the sides of web pages**/
+header,
+nav,
+main,
+footer {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+/**small screen navigation bar**/
+@media screen and (max-width: 800px) {
+
+    nav {
+        width: 100vw; /* Ensure nav takes full viewport width */
+        background-color: #115c00;
+        transition: color 0.3s ease, background-color 0.3s ease;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    nav ul {
+        display: flex;
+        flex-direction: column; /* For stacked items */
+        width: 100%;
+        list-style: none;/* Remove default bullet points */
+        padding: 0;
+        margin: 0;
+
+    }
+
+    nav li {
+        color: #E1F2E5;
+        border-top: white 1px solid;
+        border-bottom: white 1px solid;
+    }
+
+    nav a {
+        display: flex;
+        padding: .83rem 1rem;
+        max-width: 100%;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #E1F2E5;
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+    }
+
+    nav li.active a {
+        background-color: #4c1bc1;
+        color: #eef25a;
+        background-image: linear-gradient(to bottom, #4c1bc1, #2E007A);
+
+    }
+
+    nav li a:hover {
+        color: white;
+    }
+}
+
+
+/*end of small screen navigation bar**/
+
+/** Large screen navigation bar **/
+@media screen and (min-width: 801px) {
+    nav {
+        background-color: #115c00;
+        width: 100%;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0 10px;
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        padding: .83rem 1rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #E1F2E5;
+        text-decoration: none;
+    }
+
+
+    nav li.active a {
+        background-color: #4c1bc1;
+        color: #eef25a;
+        background-image: linear-gradient(to bottom, #4c1bc1, #2E007A);
+    }
+
+    nav li a:hover {
+        color: white;
+    }
+
+}
+
+/**end of large screen navigation bar**/
