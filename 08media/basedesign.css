@@ -1,4 +1,5 @@
 /**Prevent Problems on Different Browers**/
+* {box-sizing: border-box;}
 
 
 body {
