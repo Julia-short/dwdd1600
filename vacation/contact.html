@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Julia Larson">
+    <meta name="description" content="Creating ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stylepage.css">
+
+    <!--Icon Code-->
+
+    <!--Header-->
+    <title>Magic Adventure</title>
+
+</head>
+<body>
+    <header>
+        <h1>Magic Adventure</h1>
+
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="spacing">Home</a></li>
+            <li><a href="cruizes.html">Cruizes</a></li>
+            <li><a href="tours.html">Land Tours</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Main Content-->
+    <main>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="paragraph">
+                <!--Hero Image-->
+                <p>Here at Magic adventure we want you to have feel that exploring your world is not as out of reach.
+                    Let us help you plan affordable and exciting vacation.</p>
+
+            </div>
+
+            <form method="get" class="info-request" action="thanks-request.html">
+
+                <fieldset>
+                    <legend>Who are you?</legend>
+                    <label>First name*<input type="text" name="fname" required></label>
+                    <label>Last name*<input type="text" name="lname" required></label>
+                    <label>Email*<input type="text" name="Email-name" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Where would you want to go?</legend>
+                    <label><input type="checkbox" name="info" value="Hawaii">Hawaii</label>
+                    <label><input type="checkbox" name="info" value="The Mediterainium">Mediteranium</label>
+                    <label><input type="checkbox" name="info" value="Alaska">Alaska</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>How did you hear about us?</legend>
+                    <label><input type="radio" name="source" value="friend">Friend</label>
+                    <label><input type="radio" name="source" value="social-media">Social Media</label>
+                    <label><input type="radio" name="source" value="search-engine">Search Engine</label>
+                    <label><input type="radio" name="source" value="other">Other</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What kind of Adventure do you want? </legend>
+
+                    <label><input type="radio" name="msm" value="yes">Cruise</label>
+                    <label><input type="radio" name="msm" value="no">Land Excursion</label>
+                    <label>Special Rquest/ Or Desired Locations<textarea class="adventure-request-comment"
+                            placeholder="Request"></textarea></label>
+
+                </fieldset>
+
+                <label>Comments<textarea name="comments" class="general-comment"
+                        placeholder="Please leave any comments or questions here."></textarea></label>
+
+                <input type="submit" value="Submit">
+
+
+            </form>
+
+
+        </div>
+
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 Magic Adventure&bull; All rights reserved&bull;</p>
+    </footer>
+
+</body>
+
